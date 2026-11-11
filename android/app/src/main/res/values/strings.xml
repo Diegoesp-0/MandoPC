@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">MandoPC</string>
+    <string name="pad_description">Mando virtual</string>
+
+    <!-- Estado de la conexión (junto a los LED y en el panel) -->
+    <string name="status_off">Sin conexión</string>
+    <string name="status_searching">Buscando la PC en esta red</string>
+    <string name="status_wifi_on">%1$s por WiFi, %2$s ms</string>
+    <string name="status_wifi_fail">No se encontró la PC. Abre MandoPC en ella y usa la misma red.</string>
+    <string name="status_lost">Se perdió la conexión</string>
+    <string name="status_bt_wait">Esperando a que el equipo se conecte</string>
+    <string name="status_bt_connecting">Conectando con %1$s</string>
+    <string name="status_bt_on">%1$s por Bluetooth</string>
+    <string name="status_bt_unsupported">Este teléfono no puede actuar como mando Bluetooth. Usa WiFi.</string>
+    <string name="status_bt_failed">No se pudo activar el mando Bluetooth. Vuelve a intentarlo.</string>
+
+    <!-- Panel: inicio -->
+    <string name="group_connection">Conexión</string>
+    <string name="group_pad">Mando</string>
+    <string name="connected">Conectado</string>
+    <string name="disconnect">Desconectar</string>
+    <string name="bt_title">Bluetooth directo</string>
+    <string name="bt_summary">Sin instalar nada en el otro equipo</string>
+    <string name="wifi_title">WiFi</string>
+    <string name="wifi_summary">La más rápida, con MandoPC en la PC</string>
+    <string name="style_title">Distribución</string>
+    <string name="style_confirm">Esto devuelve a su sitio los controles que moviste. Las teclas turbo y las combinaciones se conservan.</string>
+    <string name="style_do">Cambiar</string>
+    <string name="edit_title">Editar diseño</string>
+    <string name="edit_summary">Mueve cada control y cambia su tamaño</string>
+    <string name="turbo_title">Teclas turbo</string>
+    <string name="turbo_summary">Varias pulsaciones con un solo toque</string>
+    <string name="reset_title">Restablecer diseño</string>
+    <string name="reset_summary">Vuelve a la disposición original</string>
+    <string name="reset_confirm">Se pierden las posiciones, los tamaños, las teclas turbo y las combinaciones.</string>
+    <string name="reset_do">Restablecer</string>
+    <string name="version">Versión %1$s</string>
+    <string name="cancel">Cancelar</string>
+    <string name="close">Cerrar</string>
+    <string name="back">Volver</string>
+
+    <!-- Panel: Bluetooth directo -->
+    <string name="bt_intro">El teléfono se presenta como un mando Bluetooth. Sirve en PC, tablets y televisores, sin instalar nada en ellos.</string>
+    <string name="bt_old">Este modo necesita Android 9 o posterior. Puedes conectarte por WiFi.</string>
+    <string name="bt_permission">Para conectarse como mando, MandoPC necesita permiso para usar el Bluetooth.</string>
+    <string name="bt_permission_do">Permitir Bluetooth</string>
+    <string name="bt_off">El Bluetooth del teléfono está apagado.</string>
+    <string name="bt_enable">Encender Bluetooth</string>
+    <string name="bt_switch">Cambiar a Bluetooth directo</string>
+    <string name="bt_step1">Haz visible este teléfono durante dos minutos.</string>
+    <string name="bt_visible">Hacer visible</string>
+    <string name="bt_step2">En la PC abre Configuración, Bluetooth y dispositivos, Agregar dispositivo, y elige «%1$s».</string>
+    <string name="bt_step3">Acepta el código en los dos equipos. La PC se conecta sola.</string>
+    <string name="bt_paired">Equipos emparejados</string>
+    <string name="bt_none">Todavía no hay ninguno.</string>
+    <string name="bt_tap">Toca para conectar</string>
+    <string name="bt_repair">Si el equipo ya estaba emparejado antes de usar este modo, quítalo de la lista de Bluetooth en ambos y emparéjalo de nuevo.</string>
+
+    <!-- Panel: WiFi -->
+    <string name="wifi_intro">La conexión más rápida. La PC debe tener abierto el programa MandoPC y estar en la misma red que el teléfono.</string>
+    <string name="wifi_search">Buscar la PC</string>
+    <string name="wifi_manual">O escribe la dirección que muestra el programa</string>
+    <string name="wifi_hint" translatable="false">192.168.1.50</string>
+    <string name="wifi_connect">Conectar</string>
+
+    <!-- Panel: teclas turbo -->
+    <string name="turbo_intro">Una tecla turbo pulsa un botón varias veces con un solo toque.</string>
+    <string name="turbo_button">Botón que pulsa</string>
+    <string name="turbo_times">Pulsaciones por toque</string>
+    <string name="turbo_hold">Mientras la mantengas</string>
+    <string name="turbo_speed">Velocidad</string>
+    <string name="turbo_speed_value">%1$d por segundo</string>
+    <string name="turbo_add">Agregar al mando</string>
+    <string name="turbo_yours">Tus teclas turbo</string>
+    <string name="turbo_item">%1$d pulsaciones, %2$d por segundo</string>
+    <string name="turbo_item_hold">Mientras la mantengas, %1$d por segundo</string>
+    <string name="remove">Quitar</string>
+    <string name="less">Menos</string>
+    <string name="more">Más</string>
+
+    <!-- Panel: combinaciones -->
+    <string name="combo_title">Combinaciones</string>
+    <string name="combo_summary">Una tecla que repite una secuencia grabada</string>
+    <string name="combo_intro">Graba una secuencia de botones y sticks, con sus tiempos. Después, una sola tecla la repite igual.</string>
+    <string name="combo_record">Grabar una combinación</string>
+    <string name="combo_yours">Tus combinaciones</string>
+    <string name="combo_item">Dura %1$s s</string>
+    <string name="rec_hint">Grabando la secuencia</string>
+    <string name="rec_save">Guardar</string>
+
+    <!-- Edición del diseño -->
+    <string name="edit_hint">Toca un control para moverlo</string>
+    <string name="edit_done">Listo</string>
+    <string name="smaller">Más pequeño</string>
+    <string name="bigger">Más grande</string>
+    <string name="name_stick_l">Stick izquierdo</string>
+    <string name="name_stick_r">Stick derecho</string>
+    <string name="name_dpad">Cruceta</string>
+    <string name="name_menu">Botón de menú</string>
+
+    <!-- Aviso permanente mientras el modo Bluetooth directo está activo -->
+    <string name="channel_name">Mando Bluetooth</string>
+    <string name="notif_title">MandoPC funciona como mando Bluetooth</string>
+    <string name="notif_text">Vuelve a la app para jugar.</string>
+</resources>

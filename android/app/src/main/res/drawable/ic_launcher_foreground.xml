@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Cruceta color hueso y los cuatro botones de colores: lo mínimo que se lee como "mando". -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <path android:fillColor="#EEF1F7" android:strokeColor="#EEF1F7" android:strokeWidth="3" android:strokeLineJoin="round"
+        android:pathData="M35,42.5h7v8h8v7h-8v8h-7v-8h-8v-7h8z" />
+    <path android:fillColor="#F7CA4A" android:pathData="M64.4,44.5a4.6,4.6 0,1 0,9.2 0a4.6,4.6 0,1 0,-9.2 0" />
+    <path android:fillColor="#F45D62" android:pathData="M73.9,54a4.6,4.6 0,1 0,9.2 0a4.6,4.6 0,1 0,-9.2 0" />
+    <path android:fillColor="#52D273" android:pathData="M64.4,63.5a4.6,4.6 0,1 0,9.2 0a4.6,4.6 0,1 0,-9.2 0" />
+    <path android:fillColor="#5AA8FF" android:pathData="M54.9,54a4.6,4.6 0,1 0,9.2 0a4.6,4.6 0,1 0,-9.2 0" />
+</vector>

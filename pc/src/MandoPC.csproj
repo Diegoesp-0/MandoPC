@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>MandoPC</AssemblyName>
+    <RootNamespace>MandoPC</RootNamespace>
+    <ApplicationIcon>MandoPC.ico</ApplicationIcon>
+    <Product>MandoPC</Product>
+    <Version>1.2.0</Version>
+    <!-- Un solo MandoPC.exe que usa el .NET instalado en la PC. ViGEmClient.dll va al lado, sin empaquetar. -->
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <SelfContained>false</SelfContained>
+    <PublishSingleFile>true</PublishSingleFile>
+    <SatelliteResourceLanguages>es</SatelliteResourceLanguages>
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Resource Include="Fonts\*.ttf" />
+  </ItemGroup>
+
+</Project>

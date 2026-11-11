@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="shell">#131A2C</color>
+    <color name="bone">#EEF1F7</color>
+
+    <style name="App" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/shell</item>
+        <item name="android:colorAccent">@color/bone</item>
+        <item name="android:statusBarColor">@color/shell</item>
+        <item name="android:navigationBarColor">@color/shell</item>
+    </style>
+</resources>

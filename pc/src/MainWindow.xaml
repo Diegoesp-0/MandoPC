@@ -1,0 +1,45 @@
+<Window x:Class="MandoPC.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MandoPC" Width="940" Height="600" MinWidth="720" MinHeight="470"
+        WindowStartupLocation="CenterScreen"
+        Background="#131A2C" Foreground="#EEF1F7"
+        FontFamily="{StaticResource Nunito}" FontWeight="SemiBold" FontSize="15"
+        UseLayoutRounding="True">
+    <Grid>
+        <Grid.Background>
+            <!-- la misma luz que la carcasa del mando en la app -->
+            <RadialGradientBrush Center="0.5,0.42" GradientOrigin="0.5,0.42" RadiusX="0.72" RadiusY="0.95">
+                <GradientStop Color="#1D2846" Offset="0" />
+                <GradientStop Color="#131A2C" Offset="1" />
+            </RadialGradientBrush>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <!-- El mando tal como lo recibe Windows: se mueve con lo que pulses en el teléfono -->
+        <Viewbox Margin="40,30,40,10">
+            <Canvas x:Name="Pad" Width="1000" Height="450" />
+        </Viewbox>
+
+        <Grid Grid.Row="1" Margin="44,6,44,32">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+            <StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <StackPanel x:Name="Leds" Orientation="Horizontal" VerticalAlignment="Center" />
+                    <TextBlock x:Name="Status" FontSize="19" FontWeight="ExtraBold" Margin="6,0,0,0" />
+                </StackPanel>
+                <TextBlock x:Name="Hint" Foreground="#96A1BD" Margin="0,8,0,0" TextWrapping="Wrap" />
+            </StackPanel>
+            <StackPanel Grid.Column="1" Margin="40,0,0,0">
+                <TextBlock Text="Dirección de esta PC" Foreground="#96A1BD" HorizontalAlignment="Right" />
+                <TextBlock x:Name="Address" FontSize="19" FontWeight="ExtraBold" TextAlignment="Right" Margin="0,7,0,0" />
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>

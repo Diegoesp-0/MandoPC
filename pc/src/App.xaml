@@ -1,0 +1,10 @@
+<Application x:Class="MandoPC.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <!-- La misma tipografía que la app del teléfono. Los dos archivos (pesos 600 y 800) se declaran
+             internamente como familia "Nunito ExtraLight": ese es el nombre que hay que pedir. -->
+        <FontFamily x:Key="Nunito">pack://application:,,,/Fonts/#Nunito ExtraLight</FontFamily>
+    </Application.Resources>
+</Application>
